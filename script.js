@@ -8,5 +8,4 @@ function bmiCalc() {
   const höhe = document.getElementById("höhe").value;
   const bmi = Math.round(gewicht / Math.pow(höhe * 0.01, 2));
   bmiResult.innerHTML = `Sie haben einen BMI von ${bmi}`;
-  console.log(bmi);
 }
