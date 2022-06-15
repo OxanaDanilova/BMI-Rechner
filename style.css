@@ -1,0 +1,77 @@
+body {
+  background-color: rgb(209, 233, 243);
+}
+
+label,
+input,
+button {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.3rem;
+}
+
+label {
+  color: royalblue;
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 140px;
+  text-align: center;
+}
+
+input {
+  border: 1px solid royalblue;
+  border-radius: 0.25rem;
+}
+
+input:hover {
+  border: 2px solid blue;
+}
+
+table,
+th,
+td {
+  border: 1px solid blue;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border-width: 2px;
+}
+
+th {
+  background-color: royalblue;
+  color: white;
+}
+
+h1,
+h3,
+p {
+  text-align: center;
+}
+
+h1,
+h3 {
+  color: royalblue;
+}
+
+p {
+  min-width: 400px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+#bmi-btn {
+  background-color: royalblue;
+  color: white;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#bmi-btn:hover {
+  background-color: blue;
+}
